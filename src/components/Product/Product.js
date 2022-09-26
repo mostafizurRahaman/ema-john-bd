@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import './Product.css'
+import './Product.css';
 const Product = ({product, addToCart}) => {
       const {name, img, price, ratings, seller} = product; 
    return (
