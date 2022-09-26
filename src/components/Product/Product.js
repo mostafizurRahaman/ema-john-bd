@@ -7,7 +7,7 @@ import './Product.css'
 const Product = ({product, addToCart}) => {
       const {name, img, price, ratings, seller} = product; 
    return (
-      <div className="col-6  col-lg-4">
+      <div className="col-12 col-sm-6  col-lg-4">
          <Card style={{height: "520px"}} className="card position-relative">
             <Card.Img variant="top" src={img} alt={name} className="p-2 product-img"/>
             <Card.Body>
