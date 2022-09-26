@@ -24,8 +24,8 @@
    -o-border-radius: 15px;
 }
 
-@media screen and (min-width: 0px) and (max-width:578px) {
+@media screen and (min-width: 0px) and (max-width:576px) {
    .card{
-      height: 600px!important;
+      height: 640px!important;
    }
 }
